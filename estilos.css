@@ -173,6 +173,11 @@ header{
     filter: brightness(0.6);
 }
 
+/* productos index */
+
+.neumaticos,
+.aceadiba,
+.accesorios,
 .productos{
     padding: 20px 20px;
     height: auto;
@@ -198,9 +203,20 @@ header{
     color: white;
 }
 
+.col-lg1{
+    height: 550px;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 30px;
+    background-size: calc(550px);
+    background-position: center top;
+    color: white;
+}
+
 .cold{
     border-radius: 20px;
-    background-color: rgba(116, 116, 116, 0.438);
+    background-color: rgba(126, 123, 123, 0.712);
 }
 
 .colp{
@@ -268,6 +284,49 @@ footer{
     text-align: center;
     justify-content: center;
 }
+
+.catneu1{
+    background-image: url(./media/at.jpg);
+}
+.catneu2{
+    background-image: url(./media/BFGOODRICH-MUD-TERRAIN-KM3.jpg);
+}
+.catneu3{
+    background-image: url(./media/highway.jpg);
+}
+.catneu4{
+    background-image: url(./media/camion.jpg);
+}
+
+.catace1{
+    background-image: url(./media/helix.jpg);
+}
+
+.catace2{
+    background-image: url(./media/diesel.jpg);
+}
+
+.catace3{
+    background-image: url(./media/aditivo-aceite-de-motor-1.png);
+}
+
+.catace4{
+    background-image: url(./media/bateria-45ah-12v-acdelco.jpg);
+}
+
+.catac1{
+    background-image: url(./media/elcable39158.jpg);
+}
+.catac2{
+    background-image: url(./media/plumillala.png);
+}
+.catac3{
+    background-image: url(./media/cubrevolantecarbon-cuerowellgrip_comprasaqui_galk9917342.png);
+}
+.catac4{
+    background-image: url(./media/bateria-45ah-12v-acdelco.jpg);
+}
+
 
 /* RESPONSIVE */
 @media(max-width: 3000px){
