@@ -188,7 +188,6 @@ header{
 
 .row{
     display: grid;
-    /* grid-template-columns: repeat(auto-fit,minmax(350px, 1fr)); */
     gap: 15px;
 }
 
@@ -315,19 +314,44 @@ footer{
 }
 
 .catac1{
-    background-image: url(./media/elcable39158.jpg);
+    background-image: url(./media/cablessi.jpg);
+    background-repeat: no-repeat;
 }
 .catac2{
     background-image: url(./media/plumillala.png);
 }
 .catac3{
-    background-image: url(./media/cubrevolantecarbon-cuerowellgrip_comprasaqui_galk9917342.png);
+    background-image: url(./media/cubrevola3.jpg);
+    background-repeat: no-repeat;
 }
 .catac4{
-    background-image: url(./media/bateria-45ah-12v-acdelco.jpg);
+    background-image: url(./media/parabrisas.png);
+}
+
+.nosotros{
+    background-color: rgb(0, 61, 168);
 }
 
 
+.nosotros .col-lg{
+    height: 500px;
+    width: auto;
+}
+
+.fotoamigos{
+    background-image: url(./media/trabajo-en-equipo-grupo-figurativo-de-equipo-de-trabajo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sucursales{
+    background-color:rgb(0, 61, 168);
+} 
+
+.sucursales .col-lg{
+    height: 700px;
+    width: auto;
+}
 /* RESPONSIVE */
 @media(max-width: 3000px){
     .row{
@@ -355,6 +379,14 @@ footer{
         display: grid;
         grid-template-columns: repeat(4,1fr);
     }
+
+    .sucursales .row,
+    .nosotros .row{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    
+
     .neu2 .cold h1,
     .neu1 .cold h1{
         font-size: 30px;
@@ -400,6 +432,11 @@ footer{
         display: block;
     }
     
+    .sucursales .row,
+    .nosotros .row{
+        grid-template-columns: repeat(1,1fr);
+    }
+
     .menu{
         position: fixed;
         width: 100%;
